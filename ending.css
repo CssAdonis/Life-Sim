@@ -1,0 +1,27 @@
+/*#description{
+    font-family: 'Poiret One', cursive;   
+    font-size:48px;
+}
+
+#main_image{
+    border-radius:20px;
+}
+.choice{
+    color:gray;
+}
+.choice:hover{
+    color:blue;
+    cursor:pointer;
+}
+#good_ending{
+    text-align:center;
+}
+
+#End {
+     font-family: 'Petit Formal Script';
+     font-size:16px;
+}
+#congrats{
+    font-size:64px;
+}
+/*

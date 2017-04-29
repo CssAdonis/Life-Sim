@@ -1,0 +1,40 @@
+button{
+    width: 15%;
+    height: 79px;
+    font-size: 115%;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color: gray;
+    cursor:pointer;
+    margin: auto;
+}
+#try{
+    text-align: Center;
+    
+}
+body{
+    background-image: url("http://i.imgur.com/PeqnDDA.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+h1{
+    text-align: Center;
+    font-size: 600%;
+    color: red;
+   font-family: 'Gloria Hallelujah', cursive;
+    
+}
+
+h3{
+    text-align: Center;
+    font-size: 200%;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+#Play {
+    display: block;
+    margin: auto;
+    padding-top: 40px;
+}

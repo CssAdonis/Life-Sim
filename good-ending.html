@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='//fonts.googleapis.com/css?family=Petit Formal Script' rel='stylesheet'>
+        <link rel="stylesheet" href="styles.css" type="text/css" />
+        <link rel="stylesheet" href="confetti.css" />
+        <script type="text/javascript" src="confetti.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $.get("https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=yay", function(response){
+                    console.log(response["data"]["image_url"]);
+                    $("img").attr("src",response["data"]["image_url"].replace("http", "https"));
+                })
+            });
+        </script>
+        <link href="https://fonts.googleapis.com/css?family=Boogaloo|Dancing+Script|Pangolin|Poiret+One" rel="stylesheet">
+    </head>
+    <body>
+        <div id="good_ending">
+            <canvas id = "confetti" width = "1" height = "1"> </canvas>
+            <h1 id="congrats">
+                CONGRATULATIONS!!!
+            </h1>
+            <h1>
+                You've made it through High School. You were able to conquer and make your future what you wanted it to be.
+            </h1>
+            
+            <img src="https://media.giphy.com/media/l2SqiOMQxG82Gto4M/giphy.gif">
+            <p id="End">Note to the user: This is more than a game; in fact, it's meant to teach you, dear student, that you can make your dreams come true, regardless of 
+            income, racial background, lack of opportunities available to you. There are, of course, obstacles; however, you have learned that it 
+            is possible to avoid them through your hunger of success. Welcome to the future of education!
+            </p>
+            
+        </div>
+    </body>
+</html>

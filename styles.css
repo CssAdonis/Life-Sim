@@ -1,0 +1,90 @@
+#home{
+    text-align:center;
+    font-size:52px;
+    background-color:rgb(128,128,128);
+    padding-bottom: 20px;
+
+}
+h1{
+    font-family: 'Poiret One', cursive;
+}
+h3{
+    font-family: 'Boogaloo', cursive;
+    font-size:36px;
+}
+h5{
+    font-family: 'Montez', cursive;
+    font-size:24px;
+    color:white;
+}
+
+#START {
+    font-size: 30px;
+    font-family: 'Poiret One', cursive;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 10px;
+    border-color:#7fb0ff;
+    border-style:dashed;
+    padding:5px;
+    margin:30px;
+}
+
+
+#START:hover {
+    text-align: center;
+    background-color: #7fb0ff;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-size:30px;
+    border-color:white;
+    border-style:none;
+
+}
+a{
+    text-decoration:none;
+}
+#box{
+    display:block;
+    width:500px;
+    margin:0 auto;
+}
+#home {
+    display: block;
+    
+}
+#main {
+    display:hidden;
+    text-align:center;
+}
+
+
+#description{
+    font-family: 'Poiret One', cursive;   
+    font-size:48px;
+}
+
+#main_image{
+    border-radius:20px;
+}
+.choice{
+    color:gray;
+}
+.choice:hover{
+    color:blue;
+    cursor:pointer;
+}
+#good_ending{
+    text-align:center;
+    color:white;
+}
+
+#End {
+     font-family: 'Petit Formal Script';
+     font-size:30px;
+}
+#congrats{
+    font-size:64px;
+
+}
+
